@@ -61,6 +61,19 @@ project(":texture-packer") {
     }
 }
 
+project(":server") {
+    apply plugin: "kotlin"
+
+    dependencies {
+        implementation project(":core")
+        api "com.badlogicgames.gdx:gdx-backend-headless:$gdxVersion"
+        api "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+        api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+        implementation "io.javalin:javalin:3.13.7"
+        implementation "org.slf4j:slf4j-simple:1.7.30" // Required for Javalin
+    }
+}
+
 project(":desktop") {
     apply plugin: "kotlin"
 
