@@ -135,7 +135,7 @@ class AsteroidsGameScreen(game: RetrowarsGame) : GameScreen(game, Games.asteroid
 
                 asteroidsToBreak.add(asteroid)
 
-                shipHit()
+//                shipHit()
 
             } else {
 

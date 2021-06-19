@@ -29,7 +29,7 @@ class AsteroidsGameState(worldWidth: Float, worldHeight: Float) {
 
     val bullets = LinkedList<Bullet>()
     val asteroids = mutableListOf<Asteroid>()
-    var currentNumAsteroids = 3
+    var currentNumAsteroids = 1
 
     /**
      * Seconds elapsed since the game began. Wont count during pause.
