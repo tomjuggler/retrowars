@@ -10,7 +10,7 @@ class SnakeGameState() {
         const val CELLS_HIGH = 19
     }
 
-    var timeStep = 0.15f
+    var timeStep = 0.45f
     var nextTimeStep = timeStep
     var timer = 0f
 
