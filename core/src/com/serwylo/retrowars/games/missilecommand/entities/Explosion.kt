@@ -10,8 +10,8 @@ class Explosion(private val initialPosition: Vector2): HasBoundingSphere {
 
     companion object {
 
-        private const val MAX_RADIUS = 25f
-        private const val DURATION = 3f
+        private const val MAX_RADIUS = 60f
+        private const val DURATION = 5f
         private const val SIZE_PER_SECOND = MAX_RADIUS / DURATION
 
         fun renderBulk(camera: Camera, r: ShapeRenderer, explosions: List<Explosion>) {

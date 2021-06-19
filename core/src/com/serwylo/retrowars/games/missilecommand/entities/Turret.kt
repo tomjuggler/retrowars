@@ -12,7 +12,7 @@ class Turret(val position: Vector2, val missileSpeed: Float) {
         const val HEIGHT = 30f
 
         const val AMMO_RADIUS = 2f
-        const val INITIAL_AMMUNITION = 10
+        const val INITIAL_AMMUNITION = 30
     }
 
     var ammunition = INITIAL_AMMUNITION
