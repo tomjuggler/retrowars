@@ -207,8 +207,8 @@ object Tetronimos {
 
     )
 
-    private val all: List<TetronimoOrientations> = listOf(O, I, T, S, Z, J, L)
-
+//    private val all: List<TetronimoOrientations> = listOf(O, I, T, S, Z, J, L)
+    private val all: List<TetronimoOrientations> = listOf(O, I)
     fun random(): TetronimoOrientations = all.random()
 
 }
